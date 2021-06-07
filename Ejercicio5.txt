@@ -1,0 +1,20 @@
+Proceso Ejercicio_5
+	m<-0;
+	h<-0;
+	Mientras (i==0) Hacer
+		Escribir "Ingrese sexo";
+		leer s;
+		Escribir "Ingrese edad";
+		leer e;
+		si s=="Femenino" o s=="femenino" Entonces
+			si e>18 Entonces
+				m<-m+1;
+			FinSi
+		Sino
+			si e<18 entonces
+				h<-h+1;
+			FinSi
+		FinSi
+		Escribir "Ingresar 1 para agregar dato y o para salir";
+	FinMientras
+FinProceso
